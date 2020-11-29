@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        android:drawable
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/bluebackground"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/ic_account_circle_black_24dp"/>
+
+                <Button
+                    android:id="@+id/btnEdit"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/ic_mode_edit_blue_24dp"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_fullname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:hint="Employee Name"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:drawablePadding="10sp"/>
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18dp"
+                android:drawablePadding="10sp"/>
+
+            <TextView
+                android:id="@+id/tv_phonenumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone number"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18dp"
+                android:drawablePadding="10sp"/>
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18dp"
+                android:drawablePadding="10sp"/>
+
+            <TextView
+                android:id="@+id/tv_countryorigin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Country Origin"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18dp"
+                android:drawablePadding="10sp"/>
+
+            <TextView
+                android:id="@+id/tv_lasteducation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Last Education"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18dp"
+                android:drawablePadding="10sp"/>
+
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOGOUT"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="40dp"
+                android:textColor="@android:color/white"
+                android:background="#82CCDD">
+            </Button>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

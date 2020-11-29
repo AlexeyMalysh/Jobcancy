@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Jobcancy</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="lastEducation">
+        <item>Tidak Sekolah</item>
+        <item>SD</item>
+        <item>SMP</item>
+        <item>SMA</item>
+        <item>SMK</item>
+        <item>D3</item>
+        <item>Sarjana</item>
+        <item>Magister</item>
+        <item>Doktor</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
